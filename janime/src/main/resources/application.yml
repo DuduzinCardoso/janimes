@@ -4,9 +4,9 @@ server:
 cloud:
   aws:
     credentials:
-      session-token: FwoGZXIvYXdzEKT//////////wEaDFKI9I0TcIoWsCPRiiK4AW+7QufoyZ5KMQ7YPqmd9DkYbpwISj1ZdoY8NiYfhDgnTm1X1t5PiJFJy12nFHVEEsnXSiKE3pqMJdTt3cdu/KMLveL0aMhaWCtMfhsDBbu+KZmQiAQ4KN/KuTsZF14OxHHlMrQJthEw5jpxDTbxyCbo5P7/5rHuhlhY2u6IPXQ5BBSfJ4dYaaG+q98gwAiiF+BldvdlHwzLorzPJq7T3Ic22xenYxMdrXNQhdeEl63JOmGZ4ZbR9IAoh/X0ogYyLTZaHfeY867O3AFS8k1nkOTQkHqXu8d+9WOFN5jNBNoj7uDC0Xvcxi2fixR7Lw==
-      access-key: ASIA27OCY5S4YVL4I5PI
-      secret-key: +hur5mjkknFtDxl5xy14lSDZiaY0uKaNVlSdASzt
+      session-token:
+      access-key:
+      secret-key:
     region:
       static: us-east-1
     stack:
