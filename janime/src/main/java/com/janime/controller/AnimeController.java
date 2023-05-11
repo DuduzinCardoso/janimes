@@ -4,6 +4,7 @@ import com.janime.domain.Anime;
 import com.janime.dto.anime.CreateAnimeDto;
 import com.janime.dto.anime.UpdateAnimeDto;
 import com.janime.service.AnimeService;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +16,7 @@ import java.util.List;
 @RequestMapping("/api/v1/animes")
 @Log4j2
 @RequiredArgsConstructor
+@SecurityRequirement(name = "bearerAuth")
 public class AnimeController {
 
     private final AnimeService animeService;
